@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Stream History",
+  "version": "1.4",
+  "description": "Captures visited URLs using webNavigation and tabs.onUpdated with deduplication and retry.",
+  "permissions": [
+    "tabs",
+    "webNavigation",
+    "storage"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
