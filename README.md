@@ -5,7 +5,7 @@ Lightweight browser activity monitoring system designed for environments where v
 
 - 📦 A Chrome Extension to capture web activity
 - 🖥 A PHP logger endpoint to receive and store events
-- 🌐 A web-based viewer with filtering and CSV export
+- 🌐 A basic web-based viewer with filtering and CSV export
 
 ---
 
@@ -48,12 +48,6 @@ Features:
 - Timestamps are converted to `Europe/Madrid` timezone
 
 ---
-
-## 📂 Repository Structure
-/
-├── extension/ # Chrome extension (unpacked)
-├── logger.php # POST endpoint to write logs
-└── viewer.php # Simple log viewer
 
 ## 🚀 Usage
 
